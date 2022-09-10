@@ -8,5 +8,3 @@ x=st.text_input('Enter text....')
 y=model.predict([x])
 if st.button('Predict'):
   st.success(op[0])
-
-  
